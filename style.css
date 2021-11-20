@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    border-radius: 50%;
+
+}
+#home{
+    background: linear-gradient(green 0% , greenyellow 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 9;   
+}
+.inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Kaisei Decol', serif;
+ font-weight: 100px;
+}
+#bio{
+    padding: 10px;
+}
+.line{
+    height: 4px;
+    margin: 2px auto;
+    background-color: black; 
+    width: 60px;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 999;
+    margin-top: 0px;
+    top: 0px;
+}
+.links{
+display: inline;
+padding-left: 30px;
+padding-right: 30px;
+font-size: 22px;
+font-family: fantasy;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+    text-shadow: 2px 2px whitesmoke;
+}
+#writting a{
+    text-shadow: none;
+    text-decoration: solid;
+    color: black;
+} 
+#contact{
+    background-color: cadetblue;
+}
+#contact iframe{
+    width: 100%;
+}
+#contact h3{
+    color: white;
+}
